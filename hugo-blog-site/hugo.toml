@@ -1,0 +1,162 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'AlgoSphere'
+theme = 'themes\FeelIt'
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    # you can add extra information before the name (HTML format is supported), such as icons
+    pre = ""
+    # you can add extra information after the name (HTML format is supported), such as icons
+    post = ""
+    name = "Posts"
+    url = "/posts/"
+    # title will be shown when you hover on this menu link.
+    title = ""
+    weight = 1
+
+[params]
+  version = "1.0.X"
+  defaultTheme = "auto"
+  dateFormat = "2024-02-01"
+
+  [params.app]
+    # optional site title override for the app when added to an iOS home screen or Android launcher
+    title = "AlgoSphere"
+
+  [params.search]
+    enable = true
+    # type of search engine ("lunr", "algolia")
+    type = "algolia"
+    # max index length of the chunked content
+    contentLength = 4000
+    # placeholder of the search bar
+    placeholder = ""
+    # max number of results length
+    maxResultLength = 10
+    # snippet length of the result
+    snippetLength = 30
+    # HTML tag name of the highlight part in results
+    highlightTag = "em"
+    #  whether to use the absolute URL based on the baseURL in search index
+    absoluteURL = false
+    [params.search.algolia]
+      index = "index"
+      appID = "UAL0NNJWXE"
+      searchKey = "7b7fbdfb7ee82ee61901f2c6b09b05be"
+  
+  [params.header]
+    # desktop header mode ("fixed", "normal", "auto")
+    desktopMode = "fixed"
+    # mobile header mode ("fixed", "normal", "auto")
+    mobileMode = "auto"
+    # Header title config
+    [params.header.title]
+      # URL of the LOGO
+      logo = ""
+      # title name
+      name = "AlgoSphere"
+      # you can add extra information before the name (HTML format is supported), such as icons
+      pre = ""
+      # you can add extra information after the name (HTML format is supported), such as icons
+      post = ""
+      # whether to use typeit animation for title name
+      typeit = true
+
+  [params.footer]
+    enable = false
+  
+  [params.about]
+    # whether to enable profile on about page
+    # depends on .Site.Params.home.profile.enable
+    enable = true
+    # whether to enable param layout
+    param = true
+    # title for param layout
+    paramTitle = "Personal Information"
+    # general description of your site
+    # can be write with markdown style
+    description = "[FeelIt](https://github.com/khusika/FeelIt) is a **clean**, **elegant** but **advanced** blog theme for [Hugo](https://gohugo.io/) developed by [Khusika](https://khusika.dev). It is based on the original [LoveIt Theme](https://github.com/dillonzq/LoveIt), [LeaveIt Theme](https://github.com/liuzc/LeaveIt), and [KeepIt Theme](https://github.com/Fastbyte01/KeepIt)."
+    # description of your status
+    [[params.about.status]]
+      faIcon = "fa-solid fa-building"
+      title = "Company"
+      desc = "FeelIt"
+    [[params.about.status]]
+      faIcon = "fa-solid fa-briefcase fa-fw"
+      title = "Occupation"
+      desc = "Freelancer"
+    [[params.about.status]]
+      title = "Location"
+      faIcon = "fa-solid fa-map-marker-alt"
+      desc = "Earth"
+    # description of your parameter
+    [[params.about.parameter]]
+      language = "UI/UX"
+      level = "80"
+    [[params.about.parameter]]
+      language = "HTML"
+      level = "70"
+    [[params.about.parameter]]
+      language = "Go"
+      level = "60"
+
+  [params.home]
+    #  amount of RSS pages
+    rss = 10
+    # Home page profile
+    [params.home.profile]
+      enable = true
+      # Gravatar Email for preferred avatar in home page
+      gravatarEmail = ""
+      # URL of avatar shown in home page
+      avatarURL = "/images/zoro.webp"
+      #  title shown in home page (HTML format is supported)
+      title = ""
+      # subtitle shown in home page
+      subtitle = "Learn about Computer Science. One step at a time!"
+      # whether to use typeit animation for subtitle
+      typeit = true
+      # whether to show social links
+      social = true
+      # disclaimer (HTML format is supported)
+      disclaimer = ""
+    # Home page posts
+    [params.home.posts]
+      enable = true
+      # special amount of posts in each home posts page
+      paginate = 6
+      #  display image-preview
+      imagePreview = true
+  
+  [params.social]
+    GitHub = "rathink4"
+    Linkedin = "rathin-kamble"
+  
+  [params.page.share]
+      enable = true
+      Twitter = true
+      Facebook = true
+      Linkedin = true
+      Whatsapp = true
+      Pinterest = false
+      Tumblr = false
+      HackerNews = false
+      Reddit = true
+  
+  [params.page.comment]
+      enable = false
+      [params.page.comment.vssue]
+        enable = false
+        # Vssue platform API ("bitbucket", "gitea", "gitee", "github", "github-v4", "gitlab")
+        # Vssue API ("bitbucket", "gitea", "gitee", "github", "github-v4", "gitlab")
+        platform = "github"
+        owner = "rathink4"
+        repo = "blog-comments"
+        clientId = ""
+        clientSecret = ""
+  
+  [params.cookieconsent]
+    enable = true
+  
