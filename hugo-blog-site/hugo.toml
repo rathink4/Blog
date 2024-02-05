@@ -1,4 +1,4 @@
-baseURL = 'https://rathink4.github.io/'
+baseURL = 'http://algosphere.io/'
 languageCode = 'en-us'
 title = 'AlgoSphere'
 theme = 'themes\FeelIt'
