@@ -1,4 +1,3 @@
-
 [submodule "hugo-blog-site/public"]
 	path = hugo-blog-site/public
 	url = https://github.com/rathink4/rathink4.github.io.git

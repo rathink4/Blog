@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://rathink4.github.io/'
 languageCode = 'en-us'
 title = 'AlgoSphere'
 theme = 'themes\FeelIt'
@@ -19,7 +19,7 @@ theme = 'themes\FeelIt'
 [params]
   version = "1.0.X"
   defaultTheme = "auto"
-  dateFormat = "2024-02-01"
+  dateFormat = "2006-01-02"
 
   [params.app]
     # optional site title override for the app when added to an iOS home screen or Android launcher
