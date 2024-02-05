@@ -3,7 +3,7 @@ languageCode = 'en-us'
 title = 'AlgoSphere'
 theme = 'themes\FeelIt'
 
-[menu]
+[menu]  
   [[menu.main]]
     identifier = "posts"
     # you can add extra information before the name (HTML format is supported), such as icons
@@ -12,6 +12,18 @@ theme = 'themes\FeelIt'
     post = ""
     name = "Posts"
     url = "/posts/"
+    # title will be shown when you hover on this menu link.
+    title = ""
+    weight = 1
+  
+  [[menu.main]]
+    identifier = "about"
+    # you can add extra information before the name (HTML format is supported), such as icons
+    pre = ""
+    # you can add extra information after the name (HTML format is supported), such as icons
+    post = ""
+    name = "About"
+    url = "/about/"
     # title will be shown when you hover on this menu link.
     title = ""
     weight = 1
@@ -77,29 +89,29 @@ theme = 'themes\FeelIt'
     paramTitle = "Personal Information"
     # general description of your site
     # can be write with markdown style
-    description = "[FeelIt](https://github.com/khusika/FeelIt) is a **clean**, **elegant** but **advanced** blog theme for [Hugo](https://gohugo.io/) developed by [Khusika](https://khusika.dev). It is based on the original [LoveIt Theme](https://github.com/dillonzq/LoveIt), [LeaveIt Theme](https://github.com/liuzc/LeaveIt), and [KeepIt Theme](https://github.com/Fastbyte01/KeepIt)."
+    description = "[AlgoSphere](https://rathink4.github.io/) is a **blog for Computer Science enthusiast** where you can learn more about topics which might be taught in university. It is developed by [rathink4](https://rathink4.github.io/)."
     # description of your status
     [[params.about.status]]
       faIcon = "fa-solid fa-building"
       title = "Company"
-      desc = "FeelIt"
+      desc = "The University of Texas at Dallas"
     [[params.about.status]]
       faIcon = "fa-solid fa-briefcase fa-fw"
       title = "Occupation"
-      desc = "Freelancer"
+      desc = "Software Developer"
     [[params.about.status]]
       title = "Location"
       faIcon = "fa-solid fa-map-marker-alt"
-      desc = "Earth"
+      desc = "Dallas, TX"
     # description of your parameter
     [[params.about.parameter]]
-      language = "UI/UX"
+      language = "AWS"
       level = "80"
     [[params.about.parameter]]
-      language = "HTML"
+      language = "Python"
       level = "70"
     [[params.about.parameter]]
-      language = "Go"
+      language = "Node.js"
       level = "60"
 
   [params.home]
