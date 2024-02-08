@@ -1,4 +1,5 @@
 ---
+weight: 1
 title: 'A Beginner Guide to Hadoop: Unlocking the Power of Big Data'
 date: 2024-02-02
 draft: false
@@ -11,6 +12,7 @@ resources:
 - name: "featured-image-preview"
   src: "featured-image-preview.webp"
 
+tags: ["hadoop"]
 
 lightgallery: true
 

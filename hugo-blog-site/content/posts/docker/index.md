@@ -1,4 +1,5 @@
 ---
+weight: 1
 title: 'Demystifying Docker: A Beginner Guide to Containerization'
 date: 2024-02-04
 draft: false
@@ -11,6 +12,7 @@ resources:
 - name: "featured-image-preview"
   src: "featured-image-preview.webp"
 
+tags: ["docker", "containerization"]
 
 lightgallery: true
 
